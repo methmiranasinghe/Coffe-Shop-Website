@@ -115,6 +115,8 @@ section{
     display: none;
 }
 
+
+
 .header .search-form{
     position: absolute;
     top:115%; right: 7%;
@@ -218,9 +220,16 @@ section{
 }
 
 .home .content h3{
+    cursor: pointer;
     font-size: 6rem;
     text-transform: uppercase;
     color:#fff;
+}
+
+.home .content h3:hover{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:var(--main-color)
 }
 
 .home .content p{
@@ -278,6 +287,11 @@ section{
     height: 10rem;
 }
 
+.menu .box-container .box h2{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
 .menu .box-container .box h3{
     color: #fff;
     font-size: 2rem;
