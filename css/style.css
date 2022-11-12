@@ -283,6 +283,11 @@ section{
     font-size: 2rem;
     padding:1rem 0;
 }
+.menu .box-container .box h2{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
 
 .menu .box-container .box .price{
     color: #fff;
@@ -293,7 +298,7 @@ section{
 .menu .box-container .box .price span{
     font-size: 1.5rem;
     text-decoration: line-through;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 .menu .box-container .box:hover{
